@@ -34,7 +34,7 @@ const randomMarks = function(pairs , themes ){
     const maxMark = 5;
     const minMark = 1;
     for(let i = 0 ; i < randomMark.length ; i++){
-    randomMark[i].push((Math.random() * (maxMark - minMark)).toFixed(0));
+    randomMark[i].push((Math.random() * (maxMark - minMark)+1).toFixed(0));
     }
     return randomMark;
 };
